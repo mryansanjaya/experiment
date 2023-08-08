@@ -151,28 +151,26 @@ USE_POINTS = True
 
 ROOMS = [
     dict(
-        name="tax_nt",
-        display_name="Eksperimen Perilaku Perpajakan Sesi 1 - No Treatment",
+        name="tax_ctpf1",
+        display_name="Eksperimen Perilaku Perpajakan Sesi 4 - Prefilled Form + Corruption Treatment",
         participant_label_file='_rooms/participant_labels.txt',
     ),
-
-    dict(
-        name="tax_ct",
-        display_name="Eksperimen Perilaku Perpajakan Sesi 2 - Corruption Treatment",
+        dict(
+        name="tax_ctpf2",
+        display_name="Eksperimen Perilaku Perpajakan Sesi 4 - Prefilled Form + Corruption Treatment",
         participant_label_file='_rooms/participant_labels.txt',
     ),
-
     dict(
-        name="tax_pf",
-        display_name="Eksperimen Perilaku Perpajakan Sesi 3 - Prefilled Form Treatment",
+        name="tax_ctpf3",
+        display_name="Eksperimen Perilaku Perpajakan Sesi 4 - Prefilled Form + Corruption Treatment",
         participant_label_file='_rooms/participant_labels.txt',
     ),
-
     dict(
-        name="tax_ctpf",
+        name="tax_ctpf4",
         display_name="Eksperimen Perilaku Perpajakan Sesi 4 - Prefilled Form + Corruption Treatment",
         participant_label_file='_rooms/participant_labels.txt',
     )
+
 ]
 
 ADMIN_USERNAME = "admin"
